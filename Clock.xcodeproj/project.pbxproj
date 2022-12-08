@@ -11,9 +11,6 @@
 		F03F496229416DFA002B7634 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F03F496129416DFA002B7634 /* Assets.xcassets */; };
 		F0C6EB85292C634800696887 /* ClockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C6EB84292C634800696887 /* ClockApp.swift */; };
 		F0C6EB87292C634800696887 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C6EB86292C634800696887 /* ContentView.swift */; };
-		F0C6EB96292C634900696887 /* ClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C6EB95292C634900696887 /* ClockTests.swift */; };
-		F0C6EBA0292C634900696887 /* ClockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C6EB9F292C634900696887 /* ClockUITests.swift */; };
-		F0C6EBA2292C634900696887 /* ClockUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C6EBA1292C634900696887 /* ClockUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,10 +38,7 @@
 		F0C6EB84292C634800696887 /* ClockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockApp.swift; sourceTree = "<group>"; };
 		F0C6EB86292C634800696887 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F0C6EB91292C634900696887 /* ClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F0C6EB95292C634900696887 /* ClockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockTests.swift; sourceTree = "<group>"; };
 		F0C6EB9B292C634900696887 /* ClockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F0C6EB9F292C634900696887 /* ClockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockUITests.swift; sourceTree = "<group>"; };
-		F0C6EBA1292C634900696887 /* ClockUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +70,6 @@
 			isa = PBXGroup;
 			children = (
 				F0C6EB83292C634800696887 /* Clock */,
-				F0C6EB94292C634900696887 /* ClockTests */,
-				F0C6EB9E292C634900696887 /* ClockUITests */,
 				F0C6EB82292C634800696887 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -102,23 +94,6 @@
 				F03F496129416DFA002B7634 /* Assets.xcassets */,
 			);
 			path = Clock;
-			sourceTree = "<group>";
-		};
-		F0C6EB94292C634900696887 /* ClockTests */ = {
-			isa = PBXGroup;
-			children = (
-				F0C6EB95292C634900696887 /* ClockTests.swift */,
-			);
-			path = ClockTests;
-			sourceTree = "<group>";
-		};
-		F0C6EB9E292C634900696887 /* ClockUITests */ = {
-			isa = PBXGroup;
-			children = (
-				F0C6EB9F292C634900696887 /* ClockUITests.swift */,
-				F0C6EBA1292C634900696887 /* ClockUITestsLaunchTests.swift */,
-			);
-			path = ClockUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +235,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0C6EB96292C634900696887 /* ClockTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,8 +242,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0C6EBA2292C634900696887 /* ClockUITestsLaunchTests.swift in Sources */,
-				F0C6EBA0292C634900696887 /* ClockUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
