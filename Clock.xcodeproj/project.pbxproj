@@ -13,23 +13,6 @@
 		F0C6EB87292C634800696887 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C6EB86292C634800696887 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		F0C6EB92292C634900696887 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F0C6EB79292C634800696887 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F0C6EB80292C634800696887;
-			remoteInfo = DigitalClock;
-		};
-		F0C6EB9C292C634900696887 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F0C6EB79292C634800696887 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F0C6EB80292C634800696887;
-			remoteInfo = DigitalClock;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		F03F3419292F590800EE5F00 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F03F495F29416D8F002B7634 /* Preview Content */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Preview Content"; sourceTree = "<group>"; };
@@ -37,26 +20,10 @@
 		F0C6EB81292C634800696887 /* Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0C6EB84292C634800696887 /* ClockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockApp.swift; sourceTree = "<group>"; };
 		F0C6EB86292C634800696887 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		F0C6EB91292C634900696887 /* ClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F0C6EB9B292C634900696887 /* ClockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F0C6EB7E292C634800696887 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F0C6EB8E292C634900696887 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F0C6EB98292C634900696887 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,8 +45,6 @@
 			isa = PBXGroup;
 			children = (
 				F0C6EB81292C634800696887 /* Clock.app */,
-				F0C6EB91292C634900696887 /* ClockTests.xctest */,
-				F0C6EB9B292C634900696887 /* ClockUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,42 +81,6 @@
 			productReference = F0C6EB81292C634800696887 /* Clock.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F0C6EB90292C634900696887 /* ClockTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F0C6EBA8292C634900696887 /* Build configuration list for PBXNativeTarget "ClockTests" */;
-			buildPhases = (
-				F0C6EB8D292C634900696887 /* Sources */,
-				F0C6EB8E292C634900696887 /* Frameworks */,
-				F0C6EB8F292C634900696887 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F0C6EB93292C634900696887 /* PBXTargetDependency */,
-			);
-			name = ClockTests;
-			productName = DigitalClockTests;
-			productReference = F0C6EB91292C634900696887 /* ClockTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		F0C6EB9A292C634900696887 /* ClockUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F0C6EBAB292C634900696887 /* Build configuration list for PBXNativeTarget "ClockUITests" */;
-			buildPhases = (
-				F0C6EB97292C634900696887 /* Sources */,
-				F0C6EB98292C634900696887 /* Frameworks */,
-				F0C6EB99292C634900696887 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F0C6EB9D292C634900696887 /* PBXTargetDependency */,
-			);
-			name = ClockUITests;
-			productName = DigitalClockUITests;
-			productReference = F0C6EB9B292C634900696887 /* ClockUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -164,14 +93,6 @@
 				TargetAttributes = {
 					F0C6EB80292C634800696887 = {
 						CreatedOnToolsVersion = 14.1;
-					};
-					F0C6EB90292C634900696887 = {
-						CreatedOnToolsVersion = 14.1;
-						TestTargetID = F0C6EB80292C634800696887;
-					};
-					F0C6EB9A292C634900696887 = {
-						CreatedOnToolsVersion = 14.1;
-						TestTargetID = F0C6EB80292C634800696887;
 					};
 				};
 			};
@@ -189,8 +110,6 @@
 			projectRoot = "";
 			targets = (
 				F0C6EB80292C634800696887 /* Clock */,
-				F0C6EB90292C634900696887 /* ClockTests */,
-				F0C6EB9A292C634900696887 /* ClockUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -202,20 +121,6 @@
 			files = (
 				F03F496229416DFA002B7634 /* Assets.xcassets in Resources */,
 				F03F496029416D90002B7634 /* Preview Content in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F0C6EB8F292C634900696887 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F0C6EB99292C634900696887 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,34 +136,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F0C6EB8D292C634900696887 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F0C6EB97292C634900696887 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		F0C6EB93292C634900696887 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F0C6EB80292C634800696887 /* Clock */;
-			targetProxy = F0C6EB92292C634900696887 /* PBXContainerItemProxy */;
-		};
-		F0C6EB9D292C634900696887 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F0C6EB80292C634800696887 /* Clock */;
-			targetProxy = F0C6EB9C292C634900696887 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		F0C6EBA3292C634900696887 /* Debug */ = {
@@ -433,82 +311,6 @@
 			};
 			name = Release;
 		};
-		F0C6EBA9292C634900696887 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7G5J76FJ27;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = CodingSensation.ClockTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clock.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Clock";
-			};
-			name = Debug;
-		};
-		F0C6EBAA292C634900696887 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7G5J76FJ27;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = CodingSensation.ClockTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clock.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Clock";
-			};
-			name = Release;
-		};
-		F0C6EBAC292C634900696887 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7G5J76FJ27;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = CodingSensation.ClockUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = DigitalClock;
-			};
-			name = Debug;
-		};
-		F0C6EBAD292C634900696887 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7G5J76FJ27;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = CodingSensation.ClockUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = DigitalClock;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -526,24 +328,6 @@
 			buildConfigurations = (
 				F0C6EBA6292C634900696887 /* Debug */,
 				F0C6EBA7292C634900696887 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F0C6EBA8292C634900696887 /* Build configuration list for PBXNativeTarget "ClockTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F0C6EBA9292C634900696887 /* Debug */,
-				F0C6EBAA292C634900696887 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F0C6EBAB292C634900696887 /* Build configuration list for PBXNativeTarget "ClockUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F0C6EBAC292C634900696887 /* Debug */,
-				F0C6EBAD292C634900696887 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
